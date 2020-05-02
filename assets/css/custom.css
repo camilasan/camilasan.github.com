@@ -1,0 +1,39 @@
+aside div img {
+    border-radius: 50%;
+    max-width: 200px;
+    border: 5px solid #f3e501;
+}
+
+aside div h1 {
+    color: #fff;
+    margin: 15px 0 10px;
+}
+aside div h1 a {
+    padding: 10px;
+    color: #fff;
+    background-color: #d9411e;
+}
+aside div h1 a:hover {
+    padding: 10px;
+    color: #fff;
+    background-color: #d9411e;
+}
+
+
+aside div p  {
+    font-size: 1.2em;
+    margin: 0 20px;
+    padding: 10px;
+    color: #333;
+    background-color: #f3e501;
+}
+aside div p a {
+    color: #333;
+    text-decoration: underline;
+}
+
+aside div p a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
