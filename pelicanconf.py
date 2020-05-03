@@ -6,8 +6,8 @@ from datetime import datetime
 AUTHOR = 'Camila'
 SITENAME = 'Bits with anxiety disorder'
 SITETITLE = 'Camila'
-#SITEURL = 'http://camila.codes'
-SITESUBTITLE = 'Bits with anxiety disorder. Coding <a href="https://github.com/nextcloud/desktop">C++ and Qt</a> @ <a href="https://nextcloud.com">Nextcloud</a>. she/her. <br><small>GPG Key ID D406 C75C EE1A 36D6<small>'
+SITEURL = 'https://camila.codes'
+SITESUBTITLE = 'Bits with anxiety disorder. she/her.<br>Coding <a href="https://github.com/nextcloud/desktop">C++ and Qt</a> @ <a href="https://nextcloud.com">Nextcloud</a>.  <br><small><a href="mailto:hello@camila.codes">hello@camila.codes</a><br>GPG Key ID D406 C75C EE1A 36D6</small>'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
@@ -40,7 +40,7 @@ MENUITEMS = (('Archives', '/archives.html'),
 SOCIAL = (
     ('goodreads', 'https://www.goodreads.com/thewomensroom'),
     ('github', 'https://github.com/camilasan'),
-    ('twitter', 'https://camila.codes'),
+    ('twitter', 'https://twitter.com/camilacodes'),
     ('rss', '/blog/feeds/all.atom.xml'),
 )
 
@@ -59,6 +59,7 @@ COPYRIGHT_YEAR = datetime.now().year
 #DISQUS_SITENAME = "flex-pelican"
 #ADD_THIS_ID = 'ra-55adbb025d4f7e55'
 ARTICLE_EXCLUDES = ['archives']
-STATIC_PATHS = ['assets']
+STATIC_PATHS = ['assets', 'CNAME', 'favicon.ico', 'theme/img/profile.png']
 PATH_METADATA = 'assets'
 CUSTOM_CSS = 'assets/css/custom.css'
+EXTRA_PATH_METADATA = {'CNAME': {'path': 'CNAME'}, 'favicon.ico': {'path': 'favicon.ico'}}
