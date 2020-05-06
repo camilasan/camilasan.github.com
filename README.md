@@ -4,7 +4,7 @@ This is a Pelican blog (Python).
 
 To check changes locally:
 ```
-$ make serve
+$ make devserver
 ```
 
 To publish it:
