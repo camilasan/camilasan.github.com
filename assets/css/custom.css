@@ -1,3 +1,7 @@
+aside {
+    background-color: #000;
+}
+
 aside div img {
     border-radius: 50%;
     max-width: 200px;
@@ -24,17 +28,17 @@ aside div p  {
     font-size: 1.2em;
     margin: 0 20px;
     padding: 10px;
-    color: #333;
+    color: #000;
     background-color: #f3e501;
     line-height: 1.4;
 }
 aside div p a {
-    color: #333;
+    color: #000;
     text-decoration: underline;
 }
 
 aside div p a:hover {
-    color: #333;
+    color: #000;
     text-decoration: underline;
 }
 
