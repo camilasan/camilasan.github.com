@@ -4,10 +4,10 @@ from __future__ import unicode_literals
 from datetime import datetime
 
 AUTHOR = 'Camila'
-SITENAME = 'Bits with anxiety disorder'
+SITENAME = 'Not centered, not calm'
 SITETITLE = 'Camila'
 SITEURL = 'https://camila.codes'
-SITESUBTITLE = 'Bits with anxiety disorder. she/her.<br>Coding <a href="https://github.com/nextcloud/desktop">C++ and Qt</a> @ <a href="https://nextcloud.com">Nextcloud</a>.  <br><small><a href="mailto:hello@camila.codes">hello@camila.codes</a><br>GPG Key ID D406 C75C EE1A 36D6</small>'
+SITESUBTITLE = 'Not centered, not calm. she/her.<br>Coding <a href="https://github.com/nextcloud/desktop">C++ and Qt</a> @ <a href="https://nextcloud.com">Nextcloud</a>.  <br><small><a href="mailto:hello@camila.codes">hello@camila.codes</a><br>GPG Key ID D406 C75C EE1A 36D6</small>'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
@@ -40,7 +40,7 @@ MENUITEMS = (('Archives', '/archives.html'),
 SOCIAL = (
     ('goodreads', 'https://www.goodreads.com/thewomensroom'),
     ('github', 'https://github.com/camilasan'),
-    ('twitter', 'https://twitter.com/camilacodes'),
+    ('twitter', 'https://twitter.com/cmlaaaa'),
     ('rss', '/blog/feeds/all.atom.xml'),
 )
 
