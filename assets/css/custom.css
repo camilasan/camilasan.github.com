@@ -2,6 +2,16 @@ aside {
     width: 20vw;
 }
 
+main {
+    left: 20vw;
+    width: 80vw;
+}
+
+main nav {
+    text-align: left;
+    padding: 14px 0 14px 14px;
+}
+
 a {
     color: #000;
     text-decoration: underline;
