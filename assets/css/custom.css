@@ -81,4 +81,9 @@ aside div nav a:hover {
     text-decoration: underline;
 }
 
+.tag-cloud a,
+.tag-cloud a:hover {
+    color: #fff;
+    background-color: #9452a5;
+}
 
